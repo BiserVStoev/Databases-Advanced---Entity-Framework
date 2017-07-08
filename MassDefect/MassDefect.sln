@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.ConsoleClient", "MassDefect.ConsoleClient\MassDefect.ConsoleClient.csproj", "{941DD64A-D15A-46CF-BDD4-789DFE446DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.Data", "MassDefect.Data\MassDefect.Data.csproj", "{D832C2D8-775E-43E1-9F62-CD896BE02333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.Models", "MassDefect.Models\MassDefect.Models.csproj", "{2E8F09F7-1D1D-4D57-8F7E-CC952B47330B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.XMLImportClient", "MassDefect.XMLImportClient\MassDefect.XMLImportClient.csproj", "{3CC34DFB-B333-41AE-8285-6B8B9E2865C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.JsonImportClient", "MassDefect.JsonImportClient\MassDefect.JsonImportClient.csproj", "{337A432A-CCFB-413E-B99F-5BB82446B6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.JsonExportClient", "MassDefect.JsonExportClient\MassDefect.JsonExportClient.csproj", "{79D0AE37-F1CA-4018-B0F9-C5E359023EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassDefect.XmlExportClient", "MassDefect.XmlExportClient\MassDefect.XmlExportClient.csproj", "{AD5596D9-7560-45C1-A0F9-80CCD69C234E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{941DD64A-D15A-46CF-BDD4-789DFE446DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941DD64A-D15A-46CF-BDD4-789DFE446DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941DD64A-D15A-46CF-BDD4-789DFE446DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941DD64A-D15A-46CF-BDD4-789DFE446DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D832C2D8-775E-43E1-9F62-CD896BE02333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D832C2D8-775E-43E1-9F62-CD896BE02333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D832C2D8-775E-43E1-9F62-CD896BE02333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D832C2D8-775E-43E1-9F62-CD896BE02333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8F09F7-1D1D-4D57-8F7E-CC952B47330B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8F09F7-1D1D-4D57-8F7E-CC952B47330B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8F09F7-1D1D-4D57-8F7E-CC952B47330B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8F09F7-1D1D-4D57-8F7E-CC952B47330B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC34DFB-B333-41AE-8285-6B8B9E2865C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC34DFB-B333-41AE-8285-6B8B9E2865C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC34DFB-B333-41AE-8285-6B8B9E2865C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC34DFB-B333-41AE-8285-6B8B9E2865C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337A432A-CCFB-413E-B99F-5BB82446B6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337A432A-CCFB-413E-B99F-5BB82446B6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337A432A-CCFB-413E-B99F-5BB82446B6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337A432A-CCFB-413E-B99F-5BB82446B6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D0AE37-F1CA-4018-B0F9-C5E359023EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D0AE37-F1CA-4018-B0F9-C5E359023EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D0AE37-F1CA-4018-B0F9-C5E359023EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D0AE37-F1CA-4018-B0F9-C5E359023EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5596D9-7560-45C1-A0F9-80CCD69C234E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5596D9-7560-45C1-A0F9-80CCD69C234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5596D9-7560-45C1-A0F9-80CCD69C234E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5596D9-7560-45C1-A0F9-80CCD69C234E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
